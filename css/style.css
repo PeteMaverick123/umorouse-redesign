@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f2ed;
+    background-color: #FFFFFF;
     color: #333333;
 }
 
@@ -76,14 +76,14 @@ body {
     text-decoration: none;
     font-size: 26px;
     font-weight: bold;
-    color: #80613e;
+    color: #FFFFFF;
     letter-spacing: 2px;
 }
 
 .logo span {
     font-size: 10px;
     letter-spacing: 1.5px;
-    color: #777777;
+    color: #E2EDF5;
 }
 
 /* NAVIGACNI MENU */
@@ -95,7 +95,7 @@ body {
 
 .main-navigation a {
     text-decoration: none;
-    color: #444444;
+    color: #FFFFFF;
     font-size: 15px;
     font-weight: 600;
 
@@ -103,5 +103,5 @@ body {
 }
 
 .main-navigation a:hover {
-    color: #a17b4f;
+    color: #A9D9F0;
 }
