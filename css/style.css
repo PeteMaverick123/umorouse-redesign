@@ -7,42 +7,72 @@ body {
     color: #333333;
 }
 
-/* Uvítací sekce */
+/* UVÍTACÍ SEKCE S FOTOGRAFIÍ */
 
 .welcome {
-    max-width: 850px;
-    margin: 60px auto;
-    padding: 50px 30px;
-    text-align: center;
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    min-height: 560px;
+    margin: 0;
+    padding: 60px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)),
+        url("../images/panorama.jpg");
+
+    background-size: cover;
+    background-position: center;
 }
 
-/* Hlavní nadpis */
+/* PRŮHLEDNÝ PANEL S TEXTEM */
+
+.welcome-content {
+    max-width: 760px;
+    padding: 35px 45px;
+
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 16px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* HLAVNÍ NADPIS */
 
 .welcome h1 {
-    font-size: 42px;
-    color: #80613e;
+    font-size: 36px;
+    color: #164b5b;
     margin-bottom: 15px;
 }
 
-/* Podnadpis */
+/* PODNADPIS */
 
 .welcome h2 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: normal;
-    color: #666666;
-    margin-bottom: 30px;
+    color: #245477;
+    margin-bottom: 25px;
 }
 
-/* Odstavce */
+/* ODSTAVCE */
 
 .welcome p {
     font-size: 17px;
     line-height: 1.8;
+    color: #173b46;
 }
 
+/* ZÁVĚREČNÝ TEXT */
+
+.welcome-signature {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #164b5b;
+}
 /* Závěrečný text */
 
 .welcome-signature {
